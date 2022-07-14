@@ -1,0 +1,22 @@
+.news-app {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(66, 75, 88);
+}
+
+.news-item { 
+    width: 500px;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.news-item h3, .news-item p {
+    text-align: start;
+}
+
+.news-img {
+    width: 400px;
+}
