@@ -7,14 +7,18 @@
 .news-item { 
     width: 500px;
     padding: 20px;
-    border: 1px solid;
+    border: px solid;
     border-radius: 8px;
     margin-top: 10px;
     margin-bottom: 10px;
+
+    background-color: rgba(245, 245, 220, 0.719);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.news-item h3, .news-item p {
+.news-item h3, .news-item p, .news-item a {
     text-align: start;
+    text-decoration: none;
 }
 
 .news-img {
